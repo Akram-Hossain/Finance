@@ -1,0 +1,353 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .slogan_text p {
+        font-size: 17px;
+        padding: 4px 0px;
+        text-align: center;
+    }
+    .slogan_icon ul li {
+        display: inline-block;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .location_icon {
+        text-align: center;
+    }
+    .location_text {
+        text-align: center;
+    }
+    .menu_part {
+        top: -6px;
+    }
+    .menu_br {
+        border: none;
+    }
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+    .slider_3, .slider_2, .slider_1 {
+        height: 339px;
+    }
+    .banner_part {
+        top: -6px;
+    }
+    .ban_content {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .ban_content h1 {
+        font-size: 23px;
+    }
+    .ban_content h1::before {
+        left: 80px;
+    }
+    .ban_content p {
+        font-size: 14px;
+    }
+    .ban_content a {
+        margin-bottom: 12px;
+    }
+    .services_title h2 {
+        text-align: left;
+        font-size: 20px;
+    }
+    .services_desc p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .serv_img {
+        width: 72px;
+        height: 73px;
+        top: 14px;
+        left: 23px;
+    }
+    .serv_text {
+        margin-left: 0px; 
+        padding: 11px 0px 0px 6px;
+    }
+    .serv_text h4 {
+        font-size: 16px;
+    }
+    .serv_block {
+        margin-top: 6px;
+    }
+    .abt_overlay a::after {
+		width: 343px;
+		height: 203px;
+		top: -49px;
+		right: 7px;
+}
+    .about_text {
+        padding: 10px 10px 0px;
+    }
+    .abt_overlay a {
+        padding: 4px 11px;
+        line-height: 131px;
+        font-size: 11px;
+    }
+    .about_text h2 {
+        font-size: 15px;
+    }
+    .about_text p {
+        display: none;
+    }
+    .about_icon ul li {
+	float: left;
+	width: 68px;
+	margin: 0px 11px;
+	padding: 0px 5px;
+}
+    .serv_text p {
+        font-size: 15px;
+        line-height: 18px;
+        padding-top: 5px;
+    }
+    .about_icon {
+        padding-top: 0px;
+    }
+    .about_icon ul li a {
+        font-size: 13px;
+    }
+    .about_icon ul li img {
+        width: 30px;
+    }
+    .company_value {
+        padding-top: 32px;
+    }
+    .value_link ul li a {
+        font-size: 11px;
+    }
+    .value_list {
+        margin-bottom: 146px;
+    }
+    .help_overlay {
+        padding: 6px 12px 0px;
+    }
+    .about_text h2:before{
+        display: none;
+    }
+    .help_part {
+        height: 230px;
+    }
+    .help_overlay h3 {
+        font-size: 14px;
+    }
+    .help_overlay p{
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .value_link ul li {
+        padding-bottom: 0px;
+    }
+    .help_part .value_link ul li{
+        display: none;
+    }
+    .clients h2::before {
+        top: 22px;
+    }
+    .advisor_text {
+        bottom: 33px;
+        width: 100%;
+    }
+    .query_text h3 {
+        margin-bottom: 17px;
+    }
+    .ftr_lft p {
+        font-size: 12px;
+    }
+    .ftr_rit p {
+        text-align: center;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .slogan_text p {
+        text-align: center;
+    }
+    .slogan_icon ul {
+        text-align: center;
+        float: none;
+    }
+    .location_icon {
+        text-align: center;
+    }
+    .location_text {
+        text-align: center;
+    }
+    .menu_part {
+        top: -6px;
+    }
+    .menu_br {
+        border: none;
+    }
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+    .slider_3, .slider_2, .slider_1 {
+        height: 339px;
+    }
+    .ban_content {
+        margin: 65px auto 0px;
+    }
+    .servies_part {
+        margin-top: -50px;
+    }
+    .abt_overlay a::after {
+        width: 335px;
+        height: 171px;
+        top: -45px;
+        right: 11px;
+    }
+    .about_text {
+        padding: 10px 15px 0px;
+    }
+    .about_text p{
+        display: none;
+    }
+    .about_icon ul li {
+        padding: 0px 4px;
+        width: 80px;
+    }
+    .about_icon {
+        padding-top: 35px;
+    }
+    .company_value {
+        padding-top: 32px;
+    }
+    .value_list ul li {
+        width: 170px;
+    }
+    .help_overlay p{
+        display: none;
+    }
+    .help_overlay {
+        padding: 10px 0px 0px 22px;
+    }
+    .value_link ul li a {
+        font-size: 10px;
+    }
+    .help_part {
+        height: 330px;
+    }
+    .query_text h3 {
+        margin-bottom: 14px;
+    }
+    .ftr_lft p {
+        font-size: 20px;
+    }
+    .ftr_rit p {
+        text-align: center;
+    }
+    .advisor_1 {
+        margin-bottom: 20px;
+    }
+    .ftr_icon ul li {
+        padding: 19px 9px;
+    }
+    .serv_text {
+        margin-left: 0px;
+        padding: 65px 0px 10px 14px;
+    }
+    .serv_img {
+        top: 60px;
+        left: 48px;
+    }
+    .serv_block {
+        margin-top: -34px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .slogan_icon ul li {
+        padding: 10px 8px;
+    }
+    .location_icon {
+        text-align: center;
+    }
+    .banner_part {
+        top: -50px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 2px 7px;
+        font-size: 13px;
+    }
+    .serv_text {
+        margin-left: 0px;
+        padding: 65px 0px 10px 14px;
+    }
+    .serv_img {
+        top: 60px;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    .serv_block {
+        margin-top: -34px;
+    }
+    .abt_overlay a::after {
+        width: 388px;
+        height: 239px;
+        top: -46px;
+        right: 8px;
+    }
+    .about_text {
+        padding: 14px 21px 9px;
+    }
+    .about_text p{
+        display: none;
+    }
+    .about_icon {
+        padding-top: 35px;
+    }
+    .value_list {
+        margin-bottom: 146px;
+    }
+    .help_part .value_link{
+        display: none;
+    }
+    .query_text h3 {
+        margin-bottom: 17px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav .nav-item .nav-link {
+        padding: 2px 18px;
+        font-size: 14px;
+    }
+    .menu_part {
+        top: -3px;
+    }
+    .abt_overlay a::after {
+        height: 318px;
+        top: -48px;
+        right: 8px;
+    }
+    .about_icon{
+        display: none;
+    }
+    .about_text p {
+        padding-top: 18.5px;
+    }
+    .test_head {
+        width: 352px;
+    }
+    .value_list ul li {
+        width: 167px;
+    }
+    .query_btn a {
+        padding: 8px 7px;
+    }
+    .query_text h3 {
+        font-size: 25px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
